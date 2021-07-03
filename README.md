@@ -1,4 +1,5 @@
 # ConsoleApp_MiniProject1:Small Asset Management Project 
 Asset Tracking is a way to keep track of the company assets, like Laptops, Stationary computers, phones and so on.  In this project, all assets have an end of life which for simplicity reasons is 3 years. 
-The fictional company that uses this program has three branches aroud the world namely: USA, Sweden and Japan, so this program accepts only these names as office locations when attempted user to insert location.  When you write the list to the console: Sorted first by office, then Purchase date
-Items are marked *RED* if their expiry date is less than 3 months away from 3 years. Items *Yellow* if date less than 6 months away from 3 years. The default currency is SEK and each itemlist will show the exchange rate of the other countries(USA and Japan).
+The fictional company that uses this program has three branches aroud the world namely: USA, Sweden and Japan, so this program accepts only these office locations names when user is prompted to insert asset location.  When present the list to the console screen, it will be displayed like: Sorted first by office, then Purchase date. 
+Items are marked *RED* if their expiry date is suw in less then 3 months away from 3 years. In the way, items are marked *Yellow* if their expiry date is due in less than 6 months away from 3 years. 
+The default currency is SEK when registering assets as the headquarter of this fictional company is in Sweden, the prices will be converted to USD(USA) and Yen (Japan) based the current exchange rates.
